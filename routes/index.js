@@ -1,5 +1,5 @@
-const postRouts = require('./post');
-const postCommentRouts = require('./comments');
+const posts = require('./post');
+const comments = require('./comments');
 
 
 let store = {
@@ -18,4 +18,4 @@ let store = {
 };
 
 module.exports.obj = store;
-module.exports = { postRouts, postCommentRouts };
+module.exports = { posts, comments };
